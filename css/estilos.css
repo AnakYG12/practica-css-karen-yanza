@@ -3,3 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    background-color: #f1f5f9;
+    color: #142b45;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    background-color: #142b45;
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.95;
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+nav > a {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+nav a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+
+
+#nosotros {
+    background-color: #dbeafe;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+
+
+section p {
+    line-height: 1.8;
+}
+
+
+
+h2 + p {
+    font-size: 18px;
+}
+
+
+
+h2 ~ p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+.destacado {
+    color: hsl(215, 70%, 35%);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
